@@ -1,0 +1,295 @@
+# Russian translations for app package.
+# Copyright (C) 2017 Igor Drozdov
+# This file is distributed under the same license as the app package.
+# FIRST AUTHOR <igor@drozdov.net>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: app 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2019-02-10 23:14+0000\n"
+"Last-Translator: Igor Drozdov <igor@drozdov.net>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4"
+" && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"\n"
+
+msgid "AccountStatus|Closed"
+msgstr "Закрыт"
+
+msgid "AccountStatus|Unverified"
+msgstr "Не подтвержден"
+
+msgid "AccountStatus|Verified"
+msgstr "Подтвержден"
+
+msgid "An email has been sent to you with a link to reset the password for your account"
+msgstr "Вам выслана ссылка для смены пароля"
+
+msgid "An email has been sent to you with a link to unlock your account"
+msgstr "Вам выслана ссылка для разблокирования вашего логина"
+
+msgid "Button|Cancel"
+msgstr "Отмена"
+
+msgid "Button|Change login"
+msgstr "Сохранить"
+
+msgid "Button|Change password"
+msgstr "Сменить пароль"
+
+msgid "Button|Create Account"
+msgstr "Зарегистрироваться!"
+
+msgid "Button|Login"
+msgstr "Войти"
+
+msgid "Button|Logout"
+msgstr "Выйти"
+
+msgid "Button|Request Account Unlock"
+msgstr "Запросить разблокирование!"
+
+msgid "Button|Request password reset"
+msgstr "Запросить смену пароля"
+
+msgid "Button|Reset password"
+msgstr "Сменить пароль"
+
+msgid "Button|Unlock Account"
+msgstr "Разблокировать логин"
+
+msgid "Button|Verify Login Change"
+msgstr "Сохранить"
+
+msgid "Cannot change login for unverified account. Please verify this account before changing the login."
+msgstr "Нелья поменять email у неподтвержденного пользователя. Пожалуйста, подтвердите свою учетную запись."
+
+msgid "Confirm %s"
+msgstr "Подтвердите %s"
+
+msgid "Create a New Account"
+msgstr "Зарегистрируйтесь"
+
+msgid "Do you really want to log out?"
+msgstr "Завершить сессию и выйти из системы?"
+
+msgid "EmailSubject|Reset password"
+msgstr "Смена пароля"
+
+msgid "Email|Unlock Account"
+msgstr "Разблокирование учетной записи"
+
+msgid "Email|Verify Login Change"
+msgstr "Подтверждение нового логина"
+
+msgid "Forgot password?"
+msgstr "Забыли пароль?"
+
+msgid "Internal Server Error"
+msgstr "Ошибка сервера"
+
+msgid "Label|Confirm new password"
+msgstr "Подтвердите новый пароль"
+
+msgid "Label|Current password"
+msgstr "Текущий пароль"
+
+msgid "Label|Login"
+msgstr "Email"
+
+msgid "Label|New email"
+msgstr "Новый email"
+
+msgid "Label|New password"
+msgstr "Новый пароль"
+
+msgid "Label|Password"
+msgstr "Пароль"
+
+msgid "MyAPP Title"
+msgstr ""
+
+msgid "No matching unlock account key"
+msgstr "Недействительный код разблокирования учетной записи"
+
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+msgid "Please login to continue"
+msgstr "Пожалуйста, авторизуйтесь"
+
+msgid ""
+"Someone has requested a password reset for the account with this email address.\n"
+"If you did not request a password reset, please ignore this message.  If you requested a password reset,\n"
+"please go to %s\n"
+"to reset the password for the account."
+msgstr ""
+"Кто-то запросил смену пароля для учетной записи\n"
+"с этим адресом email. Если это были не вы, пожалуйста,\n"
+"игнорируйте это сообщение.\n"
+"\n"
+"Если вы запросили смену пароля, пожалуйсте следуйте по ссылке\n"
+"%s чтобы изменить ваш пароль. "
+
+msgid ""
+"Someone has requested a that the account with this email be unlocked.\n"
+"If you did not request the unlocking of this account, please ignore this\n"
+"message.  If you requested the unlocking of this account, please go to\n"
+"%s to unlock this account."
+msgstr ""
+"Кто-то запросил разблокирование учетной записи, к которой привязан ваш адрес email.\n"
+"\n"
+"Если вы не запрашивали разблокирование вашей учетной записи, пожалуйста игнорируйте это сообщение.\n"
+"\n"
+"Вы можете разблокировать свою учетную запись пройдя по ссылке ниже\n"
+"\n"
+"%s"
+
+msgid "Sorry, but the page you are looking for has note been found. Try checking the URL for error, then hit the refresh button on your browser."
+msgstr "К сожалению, страница которую вы ищете не найдена. Проверьте правильность ссылке и перезагрузите страницу."
+
+msgid "There has been an error. Our developers have been notified. Please try later."
+msgstr "Произошел сбой приложения. Разработчики уведомлены. Пожалуйста, повторите запрос позже. "
+
+msgid "There was an error changing your login"
+msgstr "Не удалось изменить логин"
+
+msgid "There was an error changing your password"
+msgstr "Не удалось изменить пароль"
+
+msgid "There was an error creating your account"
+msgstr "Ошибка с созданием учетной записи"
+
+msgid "There was an error logging in"
+msgstr "Ошибка авторизации"
+
+msgid "There was an error requesting a password reset"
+msgstr "Ошибка с запросом смены пароля"
+
+msgid "There was an error resetting your password"
+msgstr "Не удалось изменить пароль"
+
+msgid "There was an error unlocking your account"
+msgstr "Ошибка. Не удалось разблокировать учетную запись"
+
+msgid "This account is currently locked out and cannot be logged in to"
+msgstr "Эта учетная запись заблокирована. Вход запрещен."
+
+msgid "Title|Change login"
+msgstr "Смена логина"
+
+msgid "Title|Change password"
+msgstr "Смена пароля"
+
+msgid "Title|Create Account"
+msgstr "Регистрация"
+
+msgid "Title|Login"
+msgstr "Вход в приложение"
+
+msgid "Title|Logout"
+msgstr "Выход"
+
+msgid "Title|Request Account Unlock"
+msgstr "Разблокирование учетной записи"
+
+msgid "Title|Request password reset"
+msgstr "Забыли пароль?"
+
+msgid "Title|Reset password"
+msgstr "Смена пароля"
+
+msgid "Title|Unlock Account"
+msgstr "Разблокирование учетной записи"
+
+msgid "Title|Verify Login Change"
+msgstr "Подтверждение нового email"
+
+msgid "Unable to resend verify account email"
+msgstr "Не получилось выслать email для подтверждения учетной записи"
+
+msgid "Unable to verify account"
+msgstr "Ошибка с подтверждением учетной записи"
+
+msgid "Unable to verify login change"
+msgstr "Ошибка подтверждения смены логина"
+
+msgid "We have sent you a message with a link to confirm your new email."
+msgstr "Мы послали вам сообщение со ссылкой для подтверждения нового email"
+
+msgid "You are about to exit the system"
+msgstr "Вы действительно хотите выйти из системы?"
+
+msgid "You have been logged in"
+msgstr "Вы вошли в систему"
+
+msgid "Your account has been created"
+msgstr "Ваша учетная запись успешно создана"
+
+msgid "Your account has been unlocked"
+msgstr "Ваша учетная запись успешно разблокирована"
+
+msgid "Your login change has been verified"
+msgstr "Ваш логин был изменен"
+
+msgid "Your password has been changed"
+msgstr "Ваш пароль изменён"
+
+msgid "Your password has been reset"
+msgstr "Ваш пароль изменён"
+
+msgid "already an account with this login"
+msgstr "уже есть пользователь с таким логином"
+
+msgid "contains null byte"
+msgstr "содержит нулевой байт"
+
+msgid "invalid login"
+msgstr "неверный логин"
+
+msgid "invalid password"
+msgstr "неверный пароль"
+
+msgid "invalid password reset key"
+msgstr "неправильная или устаревшая ссылка для смены пароля"
+
+msgid "invalid password, does not meet requirements"
+msgstr "пароль не соответствует требованиям"
+
+msgid "invalid password, does not meet requirements%s"
+msgstr "пароль не соответствует требованиям%s"
+
+msgid "invalid password, same as current password"
+msgstr "пароль такой же как предыдущий пароль"
+
+msgid "invalid verify login change key"
+msgstr "неверная ссылка для подтверждения смены логина"
+
+msgid "logins do not match"
+msgstr "логины не совпадают"
+
+msgid "maximum %s characters"
+msgstr "максимально %s знаков"
+
+msgid "minimum %s characters"
+msgstr "минимум %s знаков"
+
+msgid "no matching login"
+msgstr "логин не найден"
+
+msgid "not a valid email address"
+msgstr "не является адресом email"
+
+msgid "passwords do not match"
+msgstr "пароли не совпадают"
+
+msgid "same as current login"
+msgstr "не отличается от текущего логина"
+
+msgid "unverified account, please verify account before logging in"
+msgstr "пожалуйста, подтвердите ваш email перед входом в систему"

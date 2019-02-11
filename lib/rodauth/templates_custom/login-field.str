@@ -1,0 +1,5 @@
+<div class="form-group#{' has-error' if rodauth.field_error(rodauth.login_param)}"">
+    <input type="email" class="form-control#{' error' if rodauth.field_error(rodauth.login_param)}" name="#{rodauth.login_param}" id="login" value="#{h rodauth.param(rodauth.login_param)}" placeholder="#{rodauth.login_label}" required>
+    <span class="help-block m-b-none">#{rodauth.field_error(rodauth.login_param)}</span>
+
+</div>

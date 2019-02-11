@@ -1,0 +1,10 @@
+/.db
+/.env
+/.bundle
+/assets/node_modules
+/public/styles
+/public/scripts
+/public/assets
+/.compiled_assets.json
+/db/*
+.sass-cache

@@ -1,0 +1,31 @@
+#+TITLE: Demo app to replicate error when trying layout per route in Rodauth.
+
+* Description
+
+With reference to news group thread https://groups.google.com/forum/#!topic/rodauth/MOBVSp2z-Qg
+
+The code to trigger the error is at the end of =./config/rodauth_config.rb= file.
+
+This demo app uses =fast_gettext= gem for translations, which makes it necessary to implement a lot of 'custom features' for =rodauth=, mainly to replace hard-coded strings in rodauth templates with translated strings.
+
+* Installation
+
+: bundle install
+
+* Running the app
+
+Launch this application with
+
+: $ rackup      # development mode
+
+or
+
+: $ ./prod.sh   # production mode
+
+To see English site launch
+
+: $ MYAPP_LOCALE=en rackup
+
+or
+
+: $ MYAPP_LOCALE=en ./prod.sh
