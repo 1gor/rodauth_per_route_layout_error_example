@@ -1,9 +1,3 @@
 #!/bin/bash
 
-# This launches puma in production mode in DEVELOPMENT environment
-# for testing purposes. Should be ignored in production.
-source ./.env.dev
-
-# MYAPP_DATABASE_URL='mysql2://0.0.0.0/myapp_dev?user=myapp&password=secret' SESSION_SECRET=78cc7df4e497d869168d2532acb683ae SMTP_HOST=192.168.1.2 SMTP_PORT=1025 SMTP_USER="" SMTP_PASSWORD="" SMTP_AUTH=plain MYAPP_SESSION_SECRET=$MYAPP_SESSION_SECRET MYAPP_DATABASE_URL=$MYAPP_DATABASE_URL bundle exec puma -e production
-
-MYAPP_DATABASE_URL=$MYAPP_DATABASE_URL SESSION_SECRET=$SESSION_SECRET SMTP_HOST=$SMTP_HOST SMTP_PORT=$SMTP_PORT SMTP_USER=$SMTP_USER SMTP_PASSWORD=$SMTP_PASSWORD SMTP_AUTH=$SMTP_AUTH MYAPP_SESSION_SECRET=$MYAPP_SESSION_SECRET MYAPP_DATABASE_URL=$MYAPP_DATABASE_URL bundle exec puma -e production
+bundle exec puma -e production

@@ -1,1 +1,0 @@
-<input type="submit" #{"name=\"#{h opts[:name]}\"" if opts[:name]} class="#{h(opts[:class] || 'btn btn-primary block full-width m-b')}" value="#{h value}"/>

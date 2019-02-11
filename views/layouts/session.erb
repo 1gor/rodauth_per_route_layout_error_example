@@ -1,13 +1,7 @@
 <!doctype html>
-<html lang="<%= FastGettext.locale %>">
+<html lang="en">
     <head>
         <%== partial('layouts/head')%>
-        <% assets_paths([:css,:default]).each do |s| %><link rel="preload" href="<%== s %>" as="style"><% end %>
-        <%== assets([:css,:default])%>
-        <% assets_paths([:js,:default]).each do |j| %>
-            <link rel="preload" href="<%== j %>" as="script">
-        <% end %>
-
     </head>
     <body class="">
         <div style="width: 400px; margin: 5em auto 5em auto; ">
@@ -22,6 +16,5 @@
             </div>
 
         </div>
-        <%== assets([:js,:default])%>
     </body>
 </html>
